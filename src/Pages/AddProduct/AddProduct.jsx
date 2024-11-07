@@ -1,16 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { CiEdit } from 'react-icons/ci'
 import { FaFileWaveform } from 'react-icons/fa6'
 import { MdDeleteSweep } from 'react-icons/md'
+import ProductForm from '../../Components/ProductForm/ProductForm'
 
 const AddProduct = () => {
+  const [model, setModel] = useState(false);
   return (
     <>
       <div>
         <div className=' flex justify-between'>
           <div></div>
           <div>
-            <button className=' bg-gradient-to-r from-[#1a2b2e] to-[#000000] py-2 px-4 flex gap-1 items-center rounded-md'>
+            <button className=' bg-gradient-to-r from-[#1a2b2e] to-[#000000] py-2 px-4 flex gap-1 items-center rounded-md'
+              onClick={() => setModel(true)}
+            >
               <FaFileWaveform /> Add Product</button>
           </div>
         </div>
@@ -42,6 +46,7 @@ const AddProduct = () => {
           </table>
         </div>
       </div>
+      <ProductForm model={model} setModel={setModel} />
     </>
   )
 }
