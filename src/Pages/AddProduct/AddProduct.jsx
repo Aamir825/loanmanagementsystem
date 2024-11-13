@@ -22,7 +22,7 @@ const AddProduct = () => {
           <table className=' w-full border-collapse'>
             <thead className=' bg-gradient-to-r from-[#1a2b2e] to-[#000000]'>
               <tr>
-                <th className=' text-left border border-[#1a2b2e] p-2 rounded-md'>Sr.</th>
+                <th className=' text-left border border-[#1a2b2e] p-2'>Sr.</th>
                 <th className=' text-center border border-[#1a2b2e] p-2'>Product Name</th>
                 <th className=' text-center border border-[#1a2b2e] p-2'>Product Price</th>
                 <th className=' text-center border border-[#1a2b2e] p-2'>Date/Time</th>
