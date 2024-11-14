@@ -8,6 +8,7 @@ import RecordForm from './Pages/RecordForm/RecordForm'
 import Records from './Pages/Records/Records'
 import Installments from './Pages/Installments/Installments'
 import Payments from './Pages/Payments/Payments'
+import Login from './Pages/Login/Login'
 // import './App.css' 
 
 function App() {
@@ -44,6 +45,10 @@ function App() {
         {
           path: "payments",
           element: <Payments/>
+        },
+        {
+          path: "login",
+          element: <Login/>
         }
       ]
     }

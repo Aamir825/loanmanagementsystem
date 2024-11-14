@@ -7,7 +7,7 @@ const RecordForm = () => {
     <>
       <div>
         <form action="" className=''>
-          <Accordion type="single" collapsible defaultValue="item-1">
+          <Accordion type="single" collapsible defaultValue="item-1" className='mb-2'>
             <AccordionItem value="item-1">
               <AccordionTrigger>
                 <h1 className=''>Customer Details</h1>
@@ -19,7 +19,7 @@ const RecordForm = () => {
                     <input className='w-full py-2 px-2 bg-transparent border border-[#1a2b2e] rounded-md' type="text" placeholder='Father Name' />
                     <input className='w-full py-2 px-2 bg-transparent border border-[#1a2b2e] rounded-md' type="number" placeholder='Contact Number' />
                   </div>
-                  <div className='flex gap-2 mb-2'>
+                  <div className='flex gap-2'>
                     <input className=' w-full py-2 px-2 bg-transparent border border-[#1a2b2e] rounded-md' type="number" placeholder='CNIC No' />
                     <input className=' w-full py-2 px-2 bg-transparent border border-[#1a2b2e] rounded-md' type="text" placeholder='Address' />
                     <input className=' w-full py-2 px-2 bg-transparent border border-[#1a2b2e] rounded-md' type="text" placeholder='Products list' />
@@ -28,7 +28,7 @@ const RecordForm = () => {
               </AccordionContent>
             </AccordionItem>
           </Accordion>
-          <Accordion type='single' collapsible>
+          <Accordion type='single' collapsible className='mb-2'>
             <AccordionItem value="item-2">
               <AccordionTrigger>
                 <h1 className=''>Guarrantor Details</h1>
@@ -51,7 +51,7 @@ const RecordForm = () => {
               </AccordionContent>
             </AccordionItem>
           </Accordion>
-          <Accordion type='single' collapsible>
+          <Accordion type='single' collapsible className='mb-2'>
             <AccordionItem value="item 3">
               <div>
                 <AccordionTrigger>

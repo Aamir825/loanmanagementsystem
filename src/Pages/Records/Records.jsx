@@ -27,7 +27,7 @@ const Records = () => {
             </Select>
           </div>
         </div>
-        <Accordion type="single" collapsible>
+        <Accordion type="single" collapsible className=' mb-2'>
           <AccordionItem value="item-1">
             <AccordionTrigger className=" border-none bg-gradient-to-r from-[#ffff] to-[#04363e] flex-row-reverse justify-end gap-3" CustomIcon={CircleFadingPlus}>
               <p className=' text-black'>Muhammad Aamir</p>
@@ -151,7 +151,7 @@ const Records = () => {
             </AccordionContent>
           </AccordionItem>
         </Accordion>
-        <Accordion type="single" collapsible>
+        <Accordion type="single" collapsible className=' mb-2'>
           <AccordionItem value="item-1">
             <AccordionTrigger className=" border-none bg-gradient-to-r from-[#ffff] to-[#04363e] flex-row-reverse justify-end gap-3" CustomIcon={CircleFadingPlus}>
               <p className=' text-black'>Muzamil Shah</p>
