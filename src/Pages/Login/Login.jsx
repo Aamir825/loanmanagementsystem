@@ -12,8 +12,9 @@ const Login = () => {
                         <h1>Sign in</h1>
                         <form action="">
                             <div className=' flex flex-col gap-2'>
-                                <input type="text" placeholder='Username' />
+                                <input type="text" placeholder='Username.' />
                                 <input type="password" placeholder='Password' />
+                                <input type="password" placeholder='password' />
                                 <input type="submit" className=' bg-white text-black py-2'/> 
                             </div>
                         </form>
