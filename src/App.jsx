@@ -1,6 +1,4 @@
-import { useState } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Layout from './components/Layout/Layout'
 import Home from './Pages/Home/Home'
 import AddProduct from './Pages/AddProduct/AddProduct'
 import Calculator from './Pages/Calculator/Calculator'
@@ -9,7 +7,7 @@ import Records from './Pages/Records/Records'
 import Installments from './Pages/Installments/Installments'
 import Payments from './Pages/Payments/Payments'
 import Login from './Pages/Login/Login'
-// import './App.css' 
+import Layout from './components/Layout/Layout.jsx'
 
 function App() {
 
