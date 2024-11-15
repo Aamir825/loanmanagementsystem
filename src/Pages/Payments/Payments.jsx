@@ -1,4 +1,4 @@
-import PaymentChart from '@/Components/PaymentChart/PaymentChart'
+import PaymentChart from '@/components/PaymentChart/PaymentChart'
 import React from 'react'
 
 const Payments = () => {

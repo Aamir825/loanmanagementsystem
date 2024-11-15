@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Layout from './Components/Layout/Layout'
+import Layout from './components/Layout/Layout'
 import Home from './Pages/Home/Home'
 import AddProduct from './Pages/AddProduct/AddProduct'
 import Calculator from './Pages/Calculator/Calculator'
