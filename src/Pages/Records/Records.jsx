@@ -1,7 +1,7 @@
 import React from 'react'
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../../components/ui/accordion"
 import { BaggageClaim, BriefcaseBusiness, CalendarDays, CalendarFold, CalendarRange, CircleFadingPlus, Handshake, IdCard, Images, Layers, MapPinHouse, Phone, Plus, PrinterIcon, QrCode, Radar, Radical, Search, Smartphone, TrendingUp, UserRound, UsersRound } from 'lucide-react'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../../components/ui/select"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 
 const Records = () => {
   return (
