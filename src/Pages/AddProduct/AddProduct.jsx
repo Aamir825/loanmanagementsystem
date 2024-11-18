@@ -1,8 +1,8 @@
+import ProductForm from '@/ProductForm/ProductForm'
 import React, { useState } from 'react'
 import { CiEdit } from 'react-icons/ci'
 import { FaFileWaveform } from 'react-icons/fa6'
 import { MdDeleteSweep } from 'react-icons/md'
-import ProductForm from '../../components/ProductForm/ProductForm'
 
 const AddProduct = () => {
   const [model, setModel] = useState(false);

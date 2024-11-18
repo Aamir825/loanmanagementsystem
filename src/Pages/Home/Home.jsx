@@ -1,7 +1,7 @@
+import Chart from '@/Chart/Chart'
 import React from 'react'
 import { AiOutlineProduct } from 'react-icons/ai'
 import { SiAlwaysdata, SiTraefikproxy } from 'react-icons/si'
-import Chart from '../../components/Chart/Chart'
 
 const Home = () => {
   return (
