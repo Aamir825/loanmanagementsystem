@@ -7,7 +7,7 @@ const RecordForm = () => {
     <>
       <div>
         <form action="" className=''>
-          <Accordion type="single" collapsible defaultValue="item-1" className='mb-2'>
+          <Accordion type='single' collapsible defaultValue="item-1" className='mb-2'>
             <AccordionItem value="item-1">
               <AccordionTrigger>
                 <h1 className=''>Customer Details</h1>
