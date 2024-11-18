@@ -9,7 +9,7 @@ const Login = () => {
                         <img className=' w-full h-[500px] object-cover' src="https://cdn.pixabay.com/photo/2022/06/23/17/13/ball-7280265_1280.jpg" alt="" />
                     </div>
                     <div className=' w-full p-4'>
-                        <h1>Sign in user</h1>
+                        <h1>Sign in</h1>
                         <form action="">
                             <div className=' flex flex-col gap-2'>
                                 <input type="text" placeholder='Username' />
